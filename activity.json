@@ -1,0 +1,39 @@
+{
+  "name": "gemfire-listRegions",
+  "type": "flogo:activity",
+  "ref": "github.com/TIBCOSoftware/flogo-contrib/activity/rest",
+  "version": "0.0.1",
+  "title": "List Regions in Gemfire",
+  "description": "List Regions in Gemfire",
+  "input":[
+    {
+      "name": "method",
+      "type": "string",
+      "required": true,
+      "allowed" : ["GET"]
+    },
+    {
+      "name": "uri",
+      "type": "string",
+      "required": true
+    },
+    {
+      "name": "header",
+      "type": "params"
+    },
+    {
+      "name": "content",
+      "type": "any"
+    }
+  ],
+  "output": [
+    {
+      "name": "result",
+      "type": "any"
+    },
+    {
+      "name": "status",
+      "type": "integer"
+    }
+  ]
+}
