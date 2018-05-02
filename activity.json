@@ -1,7 +1,7 @@
 {
   "name": "gemfire-listRegions",
   "type": "flogo:activity",
-  "ref": "github.com/TIBCOSoftware/flogo-contrib/activity/rest",
+  "ref": "github.com/sheetalbablani/gemfire-listRegions",
   "version": "0.0.1",
   "title": "List Regions in Gemfire",
   "description": "List Regions in Gemfire",
