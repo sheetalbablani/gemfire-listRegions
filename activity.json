@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "title": "List Regions in Gemfire",
   "description": "List Regions in Gemfire",
+  "homepage": "https://github.com/sheetalbablani/gemfire-listRegions",
   "input":[
     {
       "name": "method",
